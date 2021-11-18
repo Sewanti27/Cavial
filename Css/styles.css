@@ -6,9 +6,11 @@
 .nav-item{
   padding:0 18px;
 }
-
+.buttonproblem{
+  text-align:center;
+}
 .downloadbuttons{
-  margin:15% 0 0 0;
+  margin-top:15%;
 }
 
 h1{
@@ -30,29 +32,28 @@ h2{
   background-color:#FF5C58;
 }
 
-@media (max-width:1028px){
+@media (max-width:768px){
   #title{
     background-color:#FF5C58;
     text-align: center;
   }
-
-  #carouselExampleFade{
-    text-align: center;
-    padding:0 50px 0 0;
-    margin-left:0;
+  .firstone{
+    padding-top:40px;
+    text-align:center;
+    position:static;
   }
-
 }
-#carouselExampleFade{
-  margin-left: 150px;
-}
+/*#carouselExampleFade{
+  margin-left:150px;
+}*/
 /*******Images***********/
 
-/*.adoption{
-  height:300px;
+.adoption{
+  margin:0;
+  height:350px;
   width:300px;
 }
-.introimage{
+/*.introimage{
   height:400px;
   width:400px;
 }*/
@@ -98,7 +99,7 @@ p{
   margin-top:50px;
 }
 
-.carousel-item{
+.secondone{
   padding:7% 15%;
 }
 /******************Press**************/
